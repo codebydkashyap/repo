@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorry, Nidhi! 💖</title>
+    <meta name="description" content="A cute animated apology page for Nidhi from Deependra." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="background"></div>
+
+    <!-- Main Card -->
+    <main class="card" id="mainCard">
+        <h1 class="greeting">Hey Nidhi! 🌸</h1>
+        <div class="gif-container">
+            <img src="assets/head_downing-gif.gif" alt="Sorry GIF" class="cute-gif" />
+            <img src="assets/bubu-dudu.webp" alt="Bubu Dudu" class="cute-gif" />
+        </div>
+        <p class="message">
+            I'm Deependra, and I just wanted to say I'm really sorry. <br/>
+            I hope this little page brings a smile to your face! <br/>
+            You're amazing, and I cherish every moment with you. 💕
+        </p>
+        <p class="question">Will you forgive me? 🥺</p>
+        <div class="response-buttons">
+            <button class="response-btn yes-btn" id="yesBtn">Yes, I forgive you! 😊</button>
+            <button class="response-btn no-btn" id="noBtn">No 😢</button>
+        </div>
+        <button class="heart-btn" id="heartBtn">💖 Send a virtual hug</button>
+    </main>
+
+    <!-- "No" Modal — shows sad GIFs and asks again -->
+    <div id="noModal" class="modal-overlay">
+        <div class="modal-box">
+            <h2 class="modal-title" id="noModalTitle">Pleaseee 🥺</h2>
+            <div class="modal-gif-row" id="noModalGifs">
+                <img src="assets/dudu-dudu-cute.gif" alt="Sad cute" class="modal-gif" id="noGif1" />
+                <img src="assets/blinking-cat-blinking.gif" alt="Blinking cat" class="modal-gif" id="noGif2" />
+            </div>
+            <p class="modal-text" id="noModalText">I promise I'll be better! Please forgive me? 🙏</p>
+            <div class="modal-buttons">
+                <button class="response-btn yes-btn" id="noModalYes">Okay fine, yes! 😊</button>
+                <button class="response-btn no-btn" id="noModalNo">Still no 😤</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- "Yes" / Accepted Modal — celebration -->
+    <div id="yesModal" class="modal-overlay">
+        <div class="modal-box celebration">
+            <h2 class="modal-title">Yaaay! Thank you Nidhi! 🎉💖</h2>
+            <div class="modal-gif-row">
+                <img src="assets/milk-and-mocha-cute.webp" alt="Happy bears" class="modal-gif" />
+                <img src="assets/peach-goma-peach-and-goma.webp" alt="Peach and Goma" class="modal-gif" />
+            </div>
+            <p class="modal-text">You just made my whole day! You're the best! 🌟</p>
+            <div class="modal-gif-row">
+                <img src="assets/akirambow-spoiled-rabbit.webp" alt="Spoiled rabbit" class="modal-gif" />
+                <img src="assets/you're-so-cute-youre-a-cutie.webp" alt="You're cute" class="modal-gif" />
+            </div>
+            <div class="modal-gif-row">
+                <img src="assets/bubu-dudu.webp" alt="Bubu Dudu" class="modal-gif" />
+                <img src="assets/munch-face.webp" alt="Munch face" class="modal-gif" />
+            </div>
+            <button class="response-btn yes-btn" id="yesModalClose">💖 Aww okay!</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
