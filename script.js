@@ -14,14 +14,45 @@ document.addEventListener('DOMContentLoaded', () => {
   const yesModalClose = document.getElementById('yesModalClose');
 
   // Sad messages + unique GIF pairs for each popup
-  const sadMessages = [
-    { title: 'Pleaseee 🥺',           text: 'I promise I will be better! Please forgive me? 🙏',        gif1: 'assets/dudu-dudu-cute.gif',    gif2: 'assets/blinking-cat-blinking.gif' },
-    { title: 'Pretty please? 😿',     text: 'Look at these cute faces… how can you say no? 🐱',         gif1: 'assets/miss-you.webp',         gif2: 'assets/please_man_jao.webp' },
-    { title: 'I am really sorry! 😭',  text: 'I will do anything to make it up to you! 💐',              gif1: 'assets/munch-face.webp',       gif2: 'assets/bubu-dudu.webp' },
-    { title: 'Nidhi pleaseee 🥹',     text: 'You are the sweetest person ever, please forgive me! 🌸',  gif1: 'assets/hêh.webp',              gif2: 'assets/milk-and-mocha-cute.webp' },
-    { title: 'Last chance? 😢',        text: 'Okay I will keep asking until you say yes! 💕',             gif1: 'assets/head_downing-gif.gif',  gif2: 'assets/akirambow-spoiled-rabbit.webp' },
-    { title: 'I will not stop 🐻',     text: 'This popup will keep coming back! Just say yes! 😄',       gif1: 'assets/peach-goma-peach-and-goma.webp', gif2: 'assets/dudu-dudu-cute.gif' },
-  ];
+// Sad messages + unique GIF pairs for each popup
+const sadMessages = [
+  { 
+    title: 'Pleaseee 🥺',           
+    text: 'Main promise karta hoon ki main better banunga… please mujhe maaf kar do na 🙏',        
+    gif1: 'assets/dudu-dudu-cute.gif',    
+    gif2: 'assets/blinking-cat-blinking.gif' 
+  },
+  { 
+    title: 'Pretty please? 😿',     
+    text: 'In cute faces ko dekho… aap kaise mana kar sakte ho? 🐱',         
+    gif1: 'assets/miss-you.webp',         
+    gif2: 'assets/please_man_jao.webp' 
+  },
+  { 
+    title: 'I am really sorry! 😭',  
+    text: 'Main sach mein sorry hoon… aapko manaane ke liye kuch bhi karunga 💐',              
+    gif1: 'assets/munch-face.webp',       
+    gif2: 'assets/bubu-dudu.webp' 
+  },
+  { 
+    title: 'Nidhi pleaseee 🥹',     
+    text: 'Aap bahut hi sweet ho… please mujhe maaf kar dijiye 🌸',  
+    gif1: 'assets/hêh.webp',              
+    gif2: 'assets/milk-and-mocha-cute.webp' 
+  },
+  { 
+    title: 'Last chance? 😢',        
+    text: 'Bas ek last chance de do… main poochta rahunga jab tak aap haan nahi bolte 💕',             
+    gif1: 'assets/head_downing-gif.gif',  
+    gif2: 'assets/akirambow-spoiled-rabbit.webp' 
+  },
+  { 
+    title: 'I will not stop 🐻',     
+    text: 'Yeh popup baar-baar aayega… please bas ek baar haan bol do 😄',       
+    gif1: 'assets/peach-goma-peach-and-goma.webp', 
+    gif2: 'assets/dudu-dudu-cute.gif' 
+  },
+];
   const noGif1 = document.getElementById('noGif1');
   const noGif2 = document.getElementById('noGif2');
   let noCount = 0;

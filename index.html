@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sorry, Nidhi! 💖</title>
-    <meta name="description" content="A cute animated apology page for Nidhi from Deependra." />
+    <title>Sorry Nidhi 💖</title>
+    <meta name="description" content="Deependra ki taraf se Nidhi ke liye ek cute animated apology page." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -22,19 +22,19 @@
             <img src="assets/bubu-dudu.webp" alt="Bubu Dudu" class="cute-gif" />
         </div>
         <p class="message">
-            I'm Deependra, and I just wanted to say I'm really sorry. <br/>
-            I hope this little page brings a smile to your face! <br/>
-            You're amazing, and I cherish every moment with you. 💕
+            I'm Deependra , aur main bas yeh kehna chahta hoon ki mujhe sach mein sorry hai. <br/>
+            Umeed hai yeh chhoti si page aapke face par smile le aaye! <br/>
+            Aap bahut special ho, aur main aapke saath har moment ko value karta hoon. 💕
         </p>
-        <p class="question">Will you forgive me? 🥺</p>
+        <p class="question">Kya aap mujhe maaf karoge? 🥺</p>
         <div class="response-buttons">
-            <button class="response-btn yes-btn" id="yesBtn">Yes, I forgive you! 😊</button>
-            <button class="response-btn no-btn" id="noBtn">No 😢</button>
+            <button class="response-btn yes-btn" id="yesBtn">Haan, maaf kiya 😊</button>
+            <button class="response-btn no-btn" id="noBtn">Nahi 😢</button>
         </div>
-        <button class="heart-btn" id="heartBtn">💖 Send a virtual hug</button>
+        <button class="heart-btn" id="heartBtn">💖 Ek virtual hug bhejo</button>
     </main>
 
-    <!-- "No" Modal — shows sad GIFs and asks again -->
+    <!-- "No" Modal -->
     <div id="noModal" class="modal-overlay">
         <div class="modal-box">
             <h2 class="modal-title" id="noModalTitle">Pleaseee 🥺</h2>
@@ -42,15 +42,17 @@
                 <img src="assets/dudu-dudu-cute.gif" alt="Sad cute" class="modal-gif" id="noGif1" />
                 <img src="assets/blinking-cat-blinking.gif" alt="Blinking cat" class="modal-gif" id="noGif2" />
             </div>
-            <p class="modal-text" id="noModalText">I promise I'll be better! Please forgive me? 🙏</p>
+            <p class="modal-text" id="noModalText">
+                Main promise karta hoon ki main better banunga… please mujhe maaf kar do na 🙏
+            </p>
             <div class="modal-buttons">
-                <button class="response-btn yes-btn" id="noModalYes">Okay fine, yes! 😊</button>
-                <button class="response-btn no-btn" id="noModalNo">Still no 😤</button>
+                <button class="response-btn yes-btn" id="noModalYes">Theek hai, maaf kiya 😊</button>
+                <button class="response-btn no-btn" id="noModalNo">Abhi bhi nahi 😤</button>
             </div>
         </div>
     </div>
 
-    <!-- "Yes" / Accepted Modal — celebration -->
+    <!-- "Yes" Modal -->
     <div id="yesModal" class="modal-overlay">
         <div class="modal-box celebration">
             <h2 class="modal-title">Yaaay! Thank you Nidhi! 🎉💖</h2>
@@ -58,7 +60,9 @@
                 <img src="assets/milk-and-mocha-cute.webp" alt="Happy bears" class="modal-gif" />
                 <img src="assets/peach-goma-peach-and-goma.webp" alt="Peach and Goma" class="modal-gif" />
             </div>
-            <p class="modal-text">You just made my whole day! You're the best! 🌟</p>
+            <p class="modal-text">
+                Thank you! Aap sach mein best ho! 🌟
+            </p>
             <div class="modal-gif-row">
                 <img src="assets/akirambow-spoiled-rabbit.webp" alt="Spoiled rabbit" class="modal-gif" />
                 <img src="assets/you're-so-cute-youre-a-cutie.webp" alt="You're cute" class="modal-gif" />
@@ -67,7 +71,7 @@
                 <img src="assets/bubu-dudu.webp" alt="Bubu Dudu" class="modal-gif" />
                 <img src="assets/munch-face.webp" alt="Munch face" class="modal-gif" />
             </div>
-            <button class="response-btn yes-btn" id="yesModalClose">💖 Aww okay!</button>
+            <button class="response-btn yes-btn" id="yesModalClose">💖 Aww, theek hai!</button>
         </div>
     </div>
 
