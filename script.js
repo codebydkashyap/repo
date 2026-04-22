@@ -37,7 +37,7 @@ const sadMessages = [
   { 
     title: 'Nidhi pleaseee 🥹',     
     text: 'Aap bahut hi sweet ho… please mujhe maaf kar dijiye 🌸',  
-    gif1: 'assets/hêh.webp',              
+    gif1: 'assets/hêh.webp',              
     gif2: 'assets/milk-and-mocha-cute.webp' 
   },
   { 
